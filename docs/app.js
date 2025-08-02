@@ -5,7 +5,7 @@ async function loadYAML(url) {
 }
 
 async function loadStages() {
-  const stages = await loadYAML('../core/stages.yaml');
+  const stages = await loadYAML('core/stages.yaml');
   const container = document.getElementById('stages');
   stages.forEach(stage => {
     const btn = document.createElement('button');
@@ -16,7 +16,7 @@ async function loadStages() {
 }
 
 async function loadTechnologies(stageId) {
-  const response = await fetch('../data/technologies/sample.yaml');
+  const response = await fetch('data/technologies/sample.yaml');
   const text = await response.text();
   const tech = jsyaml.load(text);
   const grid = document.getElementById('tech-grid');
