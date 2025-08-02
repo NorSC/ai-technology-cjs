@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Contribute a Technology</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Contribute a Technology</h1>
+  <form id="techForm">
+    <label>Name:<input type="text" name="name" required></label><br>
+    <label>Description:<textarea name="description"></textarea></label><br>
+    <label>Country:<input type="text" name="country" placeholder="ISO Code"></label><br>
+    <label>Stages (comma separated):<input type="text" name="stages"></label><br>
+    <label>Taxonomy (comma separated):<input type="text" name="taxonomy"></label><br>
+    <label>Readiness:
+      <select name="technology_readiness">
+        <option value="prototype">Prototype</option>
+        <option value="trial">Trial</option>
+        <option value="deployment">Deployment</option>
+        <option value="decommissioned">Decommissioned</option>
+      </select>
+    </label><br>
+    <label>Sources:<textarea name="sources"></textarea></label><br>
+    <button type="submit">Submit</button>
+  </form>
+  <script src="https://cdn.jsdelivr.net/npm/js-yaml@4/dist/js-yaml.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

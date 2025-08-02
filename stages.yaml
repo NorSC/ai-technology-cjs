@@ -1,0 +1,8 @@
+- id: stage_policing
+  name: Policing
+  order: 1
+  cjs: [cjs_ew, cjs_sc]
+- id: stage_prosecution
+  name: Prosecution
+  order: 2
+  cjs: [cjs_ew]
