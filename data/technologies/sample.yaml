@@ -4,7 +4,7 @@ country: GB
 cjs_id: cjs_ew
 stages:
   - stage_community_policing
-  - intelligence
+  - stage_intelligence
 taxonomy:
   - text->classification
 technology_readiness: trial
