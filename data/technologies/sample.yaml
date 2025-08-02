@@ -5,6 +5,7 @@ cjs_id: cjs_ew
 stages:
   - stage_community_policing
   - stage_intelligence
+  - stage_investigation
 taxonomy:
   - text->classification
 technology_readiness: trial
