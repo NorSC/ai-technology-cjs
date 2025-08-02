@@ -3,7 +3,7 @@ description: Uses case data to allocate resources to high-priority cases.
 country: GB
 cjs_id: cjs_ew
 stages:
-  - stage_policing
+  - stage_community_policing
 taxonomy:
   - text->classification
 technology_readiness: trial
