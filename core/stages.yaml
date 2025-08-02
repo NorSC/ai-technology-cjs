@@ -3,43 +3,36 @@
   description: Frontline policing activities and management of offenders in the community.
   order: 1
   cjs: [cjs_ew]
-
 - id: stage_intelligence
   name: Intelligence
   description: Gathering and analysing data to inform law enforcement activities.
   order: 2
   cjs: [cjs_ew]
-
 - id: stage_investigation
   name: Investigation
   description: Investigation of reported or suspected crimes, including evidence collection.
   order: 3
   cjs: [cjs_ew]
-
 - id: stage_charging
   name: Charging Decision / Alternative Disposal
   description: Decisions on whether to prosecute, issue a caution, or apply alternative measures.
   order: 4
   cjs: [cjs_ew]
-
 - id: stage_trial
   name: Trial (or Guilty Plea)
   description: Judicial process where cases are heard, or where defendants enter guilty pleas.
   order: 5
   cjs: [cjs_ew]
-
 - id: stage_sentencing
   name: Sentencing
   description: Determining the appropriate punishment or legal outcome following a trial or guilty plea.
   order: 6
   cjs: [cjs_ew]
-
 - id: stage_prison_parole
   name: Prison and Parole
   description: Management of convicted individuals within the prison system and decisions on parole release.
   order: 7
   cjs: [cjs_ew]
-
 - id: stage_probation
   name: Probation
   description: Supervision of offenders serving sentences in the community after release from custody or as an alternative to prison.
