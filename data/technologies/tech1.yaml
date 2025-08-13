@@ -1,0 +1,13 @@
+name: Acusensus AI Cameras​
+description: Seatbelt/mobile phone use offences detection​
+country: GB
+cjs_id: cjs_ew
+stages:
+  - stage_investigation
+  - stage_charging
+  - stage_trial
+taxonomy:
+  - Analysis (image->enum)​
+technology_readiness: trial
+sources:
+  - https://example.com/

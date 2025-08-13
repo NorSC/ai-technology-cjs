@@ -1,0 +1,15 @@
+name: Knife Crime Prediction​
+description: Knife crime risk prediction​
+country: GB
+cjs_id: cjs_ew
+stages:
+  - stage_charging
+  - stage_trial
+  - stage_sentencing
+  - stage_prison_parole
+  - statge_probation
+taxonomy:
+  - Synthesis (enum^n->enum)​
+technology_readiness: experimental
+sources:
+  - https://example.com/
