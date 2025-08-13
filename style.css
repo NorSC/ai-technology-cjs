@@ -2,3 +2,17 @@ body { font-family: Arial, sans-serif; margin: 20px; }
 header { background: #f5f5f5; padding: 10px; }
 #stages button { margin: 5px; }
 .tech-card { border: 1px solid #ccc; padding: 10px; margin: 5px; }
+.stage-button {
+  margin: 5px;
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  background: #f8f8f8;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.stage-button.active {
+  background: #007BFF;
+  color: white;
+  border-color: #0056b3;
+}
